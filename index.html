@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>POP IT</title>
     <link rel="stylesheet" href="css.css"/>
-    <script src="js.js"></script>
 </head>
 <body>
     <div class="tlo1">
@@ -40,21 +39,23 @@
     <div class="ChooseYour">
         <h3>Choose your Pop-It!</h3>
         <div class="ChooseYour__div">
+            <div class="ChooseYour__div--items arrows" id="left">&#10094;</div>
             <div class="ChooseYour__div--items">
                 <img id="p1" class="ChooseYour__img" src="images/square.png">
-                <p>Multicolored square</p>
+                <p id="pt1">Multicolored square</p>
                 <button class="ChooseYour__button">BUY</button>
             </div>
             <div class="ChooseYour__div--items">
-                <img id="p2" class="ChooseYour__img" src="images/amongus.png">
-                <p>Among Us, marbled</p>
+                <img id="p2" class="ChooseYour__img glowny_item" src="images/amongus.png">
+                <p id="pt2">Among Us, marbled</p>
                 <button class="ChooseYour__button">BUY</button>
             </div>
             <div class="ChooseYour__div--items">
                 <img id="p3" class="ChooseYour__img" src="images/round.png">
-                <p>Multicolored round</p>
+                <p id="pt3">Multicolored round</p>
                 <button class="ChooseYour__button">BUY</button>
             </div>
+            <div class="ChooseYour__div--items arrows" id="right">&#10095;</div>
         </div>
     </div>
     
@@ -81,5 +82,6 @@
                 <li><a href="#">contacts</a></li>
             </ul>
     </footer>
+    <script src="js.js"></script>
 </body>
 </html>
